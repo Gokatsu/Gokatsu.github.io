@@ -49,6 +49,15 @@ header{
     border: 2px solid white;
     border-radius: 50%;
 }
+#logo3 {
+    padding: 50px 0;
+    text-align: center;
+}
+#logo3 img{
+    margin:0 100px;
+    max-width: 300px;
+    
+}
 
 nav {
     margin: 0 0 30px 0;
@@ -79,24 +88,26 @@ nav ul li a.selected {
 
 .container {
     max-width: 800px;
-    margin: -100px auto 0;
+    margin: -20px auto 0;
     background-color: #fff;
 }
 
 section {
-    padding: 30px 20px;
+    padding: 15px 30px;
 }
 
 section h2 {
     padding: 10px 0 20px 0;
     text-align: center;
     letter-spacing: 0.15em;
+    color: purple;
+    font-weight: bold;
 }
 
 footer {
     padding: 20px 0;
     font-size: 93%;
     text-align: center;
-    background-color: #ccc;
+    background-color: #fff;
     color: #666
 }
